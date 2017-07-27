@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="artilce_header">
+    <h1 class="artilce_title" itemprop="name headline">{{ page.title }}</h1>
+    <span class="date"> 
+        <time class="post_date"> 
+            Le 
+            {% assign m = page.date | date: "%-m" %}
+            {{ page.date | date: "%-d" }}
+                {% case m %}
+                  {% when '1' %}janvier 
+                  {% when '2' %}février
+                  {% when '3' %}mars
+                  {% when '4' %}avril
+                  {% when '5' %}mai
+                  {% when '6' %}juin
+                  {% when '7' %}juillet
+                  {% when '8' %}août
+                  {% when '9' %}septembre
+                  {% when '10' %}octobre
+                  {% when '11' %}novembre
+                  {% when '12' %}décembre
+                {% endcase %}
+            {{ page.date | date:"%Y"}}{% if page.moment %}, {% endif %}{{ page.moment}}.
+        </time></span>
+  </header>
+
+    <div class="article-content" itemprop="articleBody">
+    
+        {{ page.content }}
+        
+  </div>
+    
+     {% if page.latitude %}    
+
+    <div id="mapid" class="mapsmall"> </div>
+    
+    <script>  
+                     
+        var mymap = L.map('mapid').setView([{{ page.latitude}}, {{ page.longitude}}], 10);
+
+        var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+
+        var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+
+        var osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 12, attribution: osmAttrib});
+
+        var marker = L.marker([{{ page.latitude}} , {{ page.longitude}} ]).addTo(mymap);
+        
+        mymap.addLayer(osm); 
+        
+        marker.bindPopup()
+
+    </script>
+    
+    {% endif %}
+    
+<br/>
+    
+<br/>
+
+    <div class="PageNavigation">
+      {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">&laquo; précédent </a>
+      {% endif %} 
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}"> suivant &raquo;</a>
+      {% endif %}
+    </div>
+    
+    
+</article>
