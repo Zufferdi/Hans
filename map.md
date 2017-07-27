@@ -17,7 +17,7 @@ var osm = new L.TileLayer(osmUrl, {minZoom: 4, maxZoom: 12, attribution: osmAttr
 mymap.addLayer(osm);
 {% for post in site.posts %}
     {% if post.latitude %}
-    L.marker([{{post.latitude}}, {{post.longitude}}]).addTo(mymap).bindPopup("<a href='{{ site.url }}/Hans{{ post.url }}'> <strong>{{post.title}}</strong> </a>"); 
+    L.marker([{{post.latitude}}, {{post.longitude}}]).addTo(mymap).bindPopup("<a href='{{ post.url | prepend: site.baseurl }}'> <strong>{{post.title}}</strong> </a>"); 
     {% endif %}
 {% endfor %}
 var latlngs = [
