@@ -17,7 +17,7 @@ title: "Itinéraire d'un retour"
 email: zufferey@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Carnet du retour du soldat Hans Mayer du front est (frontière tchéco-autrichienne) jusqu'à son village natal d'Oberstdorf en Bavière entre mai et juin 1945
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://zufferdi.github.io/Hans" # the subpath of your site, e.g. /blog
 url: "https://zufferdi.github.io/Hans" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zard8
 github_username:  zufferdi
