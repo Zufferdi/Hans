@@ -64,10 +64,10 @@ layout: default
 
     <div class="PageNavigation">
       {% if page.previous.url %}
-        <a class="prev" href="{{page.previous.url | prepend site.baseurl}}}">&laquo; précédent </a>
+        <a class="prev" href="{{page.previous.url | prepend:site.baseurl}}}">&laquo; précédent </a>
       {% endif %} 
       {% if page.next.url %}
-        <a class="next" href="{{page.next.url | prepend site.baseurl}}"> suivant &raquo;</a>
+        <a class="next" href="{{page.next.url | prepend:site.baseurl}}"> suivant &raquo;</a>
       {% endif %}
     </div>
     
