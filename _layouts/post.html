@@ -59,9 +59,30 @@ layout: default
     {% endif %}
     
 <br/>
-    
+
 <br/>
 
+    <script type="text/javascript">
+            $(document).ready(function() {
+                document.onkeydown = function() 
+                    {
+                        var j = event.keyIdentifier
+                        if (j == "Right")
+                            window.location = nextUrl
+                        else if (j == "Left")
+                            window.location = prevUrl            
+                            }
+                       });
+
+            $(document).ready(function() {
+                        var nextPage = $(".prev")
+                        var prevPage = $(".next")
+                        nextUrl = nextPage.attr("href")
+                        prevUrl = prevPage.attr("href")
+                    });
+    </script>
+
+    
     <div class="PageNavigation">
       {% if page.previous.url %}
         <a class="prev" href="{{page.previous.url | prepend:site.baseurl}}">&laquo; précédent </a>
