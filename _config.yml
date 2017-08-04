@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Un Bavarois rentre au pays" 
+title: "Ma guerre (1940-1945)" 
 email: zufferey@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Parcours du soldat Hans Mayer (1920-2004) de son incorporation à la 7e untié de "Panzerjäger" de la 337e division d'infanterie à son retour sain et sauf dans son village d'Oberstdorf.
