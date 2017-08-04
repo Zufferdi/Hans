@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Itinéraire d'un retour" 
+title: "Un Bavarois rentre au pays" 
 email: zufferey@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Carnet du retour du soldat Hans Mayer du front est (frontière tchéco-autrichienne) jusqu'à son village natal d'Oberstdorf en Bavière entre mai et juin 1945
+  Parcours du soldat Hans Mayer (1920-2004) de son incorporation à la 7e untié de "Panzerjäger" de la 337e division d'infanterie à son retour sain et sauf dans son village d'Oberstdorf.
 baseurl: "/Hans" # the subpath of your site, e.g. /blog
 url: "https://zufferdi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zard8

@@ -20,9 +20,14 @@ with open(file) as csvDataFile:
         title = row[1]
         moment = row[2]
         date_md = row[0]
-        # Coordonnees des lieux visites par Hans
+        # Coordonnees des lieux de la route à pied par Hans
         lat= row[8]
         long= row[9]
+        
+        # Coordonnees des lieux d'incorporation d par Hans
+        latWehr= row[11]
+        longWehr= row[12]
+        
                 
         # Le texte et ses explications
         texte = row[4]
@@ -45,6 +50,10 @@ with open(file) as csvDataFile:
             string += '\nlatitude: "' + lat + '"'
         if long != "":
             string += '\nlongitude: "' + long + '"'
+        if latWehr != "":
+            string += '\nWW2_lat: "'+ latWehr + '"'
+        if longWehr != "":
+            string += '\nWW2_long: "'+ longWehr + '"'
         string += '\n---'
         string += '\n\n' + texte + '\n'
         string += '\n\n<div class="histoire">' + element_histo + '</div>'
@@ -58,7 +67,6 @@ with open(file) as csvDataFile:
         text_file = open(fichier, "w")
         text_file.write(string)
         text_file.close()
-    
     
 
 

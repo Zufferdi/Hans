@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Le parcours
+title: L'itinéraire d'un retour.
 permalink: /map/
 ---
 
+<p> Cette carte illustre le retour de Hans Mayer dans son village d'Oberstdorf, et surtout le parcours accompli à pied. <br>
+Pour son établissement, les lieux ont été géolocalisés selon la description du soldat Mayer dans son Journal. Il est clairement impossible de tracer précisément son parcours à pied. Hans donne néanmoins de précieuses indications en énumérant les lieux qu'il a traversé avec ses compagnons.</p>
 
-
-    
 <div id="mapid" class="mapbig"> </div>
 
 <script>
