@@ -12,10 +12,13 @@ Le soldat Mayer commence son parcours sous les drapeaux dans la période 1940 en
 
 #### Sources
 
-Trois documents différents ont permis l'établissement de son histoire.
+Quatre documents différents ont permis l'établissement de son histoire.
 
-1. le *journal de guerre*, qui couvre la période de mai à juin 1945. Hans y écrit ses mots à destination de sa fiancée Louise. Il ne sait pas à chacune de ses entrées dans son journal s'il rentrera ou non.   
-2. ses *notes*, qui couvrent toute la période de la guerre. Elles sont plus succintes mais donnent plus de détails sur son parcours militaire, comme les nombreux allers-retours sur Paris entre 1940 et 1942. 
-3. une *lettre*, une des rares sauvées après le décès de Hans en 2004. Ecrite à l'intention de son ami Eugen et de sa femme, elle permet également de compléter quelque peu son histoire.
+1. un *agenda* qui couvre la période décembre 1941 - janvier 1943. Cette précieuse source de renseignements qui contient des noms et des adresses de personnes tant en France qu'en Allemagne.
+2. le *journal de guerre*, qui couvre la période de mai à juin 1945. Hans y écrit ses mots à destination de sa fiancée Louise. Il ne sait pas à chacune de ses entrées dans son journal s'il rentrera ou non.   
+3. ses *notes*, qui couvrent toute la période de la guerre. Elles sont plus succintes mais donnent plus de détails sur son parcours militaire, comme les nombreux allers-retours sur Paris entre 1940 et 1942. 
+4. une *lettre*, une des rares sauvées après le décès de Hans en 2004. Ecrite à l'intention de son ami Eugen et de sa femme, elle permet également de compléter quelque peu son histoire.
 
-On y ajoute quelques souvenirs restés en mémoire lors des discussions en sa compagnie.
+
+S'y ajoutent quelques souvenirs restés en mémoire lors des discussions en sa compagnie.
+
